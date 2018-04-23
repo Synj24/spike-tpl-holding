@@ -1,0 +1,21 @@
+{
+  "name": "spike-tpl-holding",
+  "version": "0.0.0",
+  "description": "A template that creates a simple holding page",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "2.2.x",
+    "coffee-script": "1.9.1",
+    "chai": "2.1.x",
+    "chai-as-promised": "4.3.x",
+    "sprout": "0.4.x",
+    "rimraf": "2.3.x"
+  },
+  "dependencies": {
+    "chalk": "^2.4.0"
+  }
+}

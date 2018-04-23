@@ -1,0 +1,12 @@
+extends(src='layout.sgr')
+  block(name='content')
+    .hero
+      .center-content
+        // replace logo
+        img.logo(src="img/logo.svg" alt="logo")
+        .sell
+          p <%= event_name %>
+          p <%= event_start %> @ <%= event_location %>
+        form.register
+          input(type="text" placeholder="Enter your email to say in the loop...")
+          button ✉️

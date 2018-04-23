@@ -1,0 +1,46 @@
+*
+  margin: 0px
+  padding: 0px
+  box-sizing: border-box
+  border: 0
+
+body
+  font-family: 'Roboto Mono', monospace
+  font-size: 14px
+
+.hero
+  background: center / cover url("/img/raphael-rychetsky-222003-unsplash-1600x900.jpg")
+  width: 100vw
+  height: 100vh
+  display: flex
+
+.logo
+  width: 200px
+  filter: drop-shadow(5px 10px #404040)
+
+.sell
+  color: white
+  margin: 20px
+  text-align: center
+  & p
+    font-size: 20px
+    background-color: #404040
+    padding: 5px
+    box-shadow: 5px 10px white
+
+.center-content
+  width: max-content
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: auto
+
+.register
+  & *
+    padding: 5px
+    box-shadow: 5px 10px #404040
+  & input
+    width: 400px
+  & button
+    padding: 5px 10px
+    background-color: lightsalmon

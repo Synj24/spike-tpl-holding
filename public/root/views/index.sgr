@@ -1,0 +1,12 @@
+extends(src='layout.sgr')
+  block(name='content')
+    .hero
+      .center-content
+        // replace logo
+        img.logo(src="img/logo.svg" alt="logo")
+        .sell
+          p This years hotest new event, so conference wow
+          p 18th April 2018 @ The really great event place
+        form.register
+          input(type="text" placeholder="Enter your email to say in the loop...")
+          button ✉️
